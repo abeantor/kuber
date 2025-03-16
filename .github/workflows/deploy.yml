@@ -142,7 +142,7 @@ jobs:
         password: ${{ secrets.MAIL_PASSWORD }}
         subject: CI/CD Pipeline Successful
         body: The build and deployment for ${{ github.repository }} was successful!
-        to: abuantor72@gmail.com
+        to: antorabu@gmail.com
         from: ${{ secrets.MAIL_USERNAME }}
 
     - name: Send Email Notification (Failure)
@@ -155,7 +155,7 @@ jobs:
         password: ${{ secrets.MAIL_PASSWORD }}
         subject: CI/CD Pipeline Failed
         body: The build or deployment for ${{ github.repository }} failed! Check GitHub Actions logs.
-        to: abuantor72@gmail.com
+        to: antorabu@gmail.com
         from: ${{ secrets.MAIL_USERNAME }}
 
 
